@@ -11,22 +11,29 @@ This project focuses on building and evaluating machine learning models for cred
   - Handled missing values and outliers.
   - Encoded categorical variables and scaled numerical features for optimal model performance.
 - **Model Building:**
-  - Implemented and compared multiple classification algorithms, including Logistic Regression, Decision Trees, Random Forest, and possibly others.
+  - Implemented and compared 5 different classification algorithms: Random Forest, XGBoost, Decision Tree, K-Nearest Neighbors, and Gaussian Naive Bayes.
   - Used train-test split and cross-validation to ensure robust evaluation.
 - **Model Evaluation:**
-  - Assessed model performance using metrics such as accuracy, precision, recall, F1-score, and ROC-AUC.
-  - Visualized confusion matrices and ROC curves for deeper insights.
+  - Assessed model performance using accuracy, precision, and recall metrics across multiple algorithms:
+    - **Random Forest**: Accuracy: 81.50%, Precision: 80.50%, Recall: 80.95% (Best performer)
+    - **XGBoost**: Accuracy: 77.38%, Precision: 75.88%, Recall: 76.33%
+    - **Decision Tree**: Accuracy: 72.39%, Precision: 70.56%, Recall: 70.56%
+    - **K-Nearest Neighbors**: Accuracy: 69.79%, Precision: 67.05%, Recall: 67.99%
+    - **Gaussian Naive Bayes**: Accuracy: 64.19%, Precision: 63.31%, Recall: 68.73%
+  - Visualized confusion matrices and performance comparisons for deeper insights.
 - **Feature Importance:**
   - Analyzed feature importances to interpret which variables most influence credit risk predictions.
 - **Conclusion:**
-  - Summarized findings and recommended the best-performing model for credit scoring.
+  - Random Forest emerged as the best-performing model with 81.50% accuracy and balanced precision-recall metrics.
+  - Successfully identified key factors influencing credit risk with quantifiable model performance.
 
 ## Technologies Used
-- Python (pandas, numpy, scikit-learn, matplotlib, seaborn, plotly)
+- Python (pandas, numpy, scikit-learn, matplotlib, seaborn, plotly, XGBoost)
 - Jupyter Notebook
+- Machine Learning Algorithms: Random Forest, XGBoost, Decision Tree, K-NN, Gaussian Naive Bayes
 
 ## Resume Summary
-Developed a comprehensive credit scoring classification solution using Python and machine learning. Performed data cleaning, feature engineering, and exploratory analysis on real-world financial data. Built and evaluated multiple classification models (Logistic Regression, Decision Trees, Random Forest), optimizing for accuracy and interpretability. Presented results with clear visualizations and actionable insights, demonstrating strong skills in data science, machine learning, and model evaluation.
+Developed a comprehensive credit scoring classification solution using Python and machine learning. Performed data cleaning, feature engineering, and exploratory analysis on a dataset of 100,000 credit records with 28 features. Built and evaluated 5 different classification models (Random Forest, XGBoost, Decision Tree, K-NN, Gaussian Naive Bayes), achieving best performance with Random Forest (81.50% accuracy, 80.50% precision, 80.95% recall). Demonstrated strong skills in data science, machine learning model comparison, and performance optimization with quantifiable results.
 
 ---
 
