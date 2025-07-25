@@ -32,9 +32,6 @@ This project focuses on building and evaluating machine learning models for cred
 - Jupyter Notebook
 - Machine Learning Algorithms: Random Forest, XGBoost, Decision Tree, K-NN, Gaussian Naive Bayes
 
-## Resume Summary
-Developed a comprehensive credit scoring classification solution using Python and machine learning. Performed data cleaning, feature engineering, and exploratory analysis on a dataset of 100,000 credit records with 28 features. Built and evaluated 5 different classification models (Random Forest, XGBoost, Decision Tree, K-NN, Gaussian Naive Bayes), achieving best performance with Random Forest (81.50% accuracy, 80.50% precision, 80.95% recall). Demonstrated strong skills in data science, machine learning model comparison, and performance optimization with quantifiable results.
-
 ---
 
 *This README provides an overview and summary suitable for sharing in a portfolio or resume context.*
